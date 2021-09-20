@@ -7,15 +7,11 @@
 /*==================== GOOGLE FONTS ====================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-/*==================== VARIABLES CSS ====================*/
-
 :root {
     --header-height: 3rem;
     /*========== Colors ==========*/
     /* Change favorite color */
     --hue-color: 250;
-    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -29,7 +25,6 @@
     --container-color: #FFF;
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
@@ -43,7 +38,6 @@
     --font-medium: 500;
     --font-semi-bold: 600;
     /*========== Margenes Bottom ==========*/
-    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -319,12 +313,12 @@ img {
 }
 
 .home_bloop {
-    width: 200px;
+    width: 700px;
     fill: var(--first-color);
 }
 
 .home_bloop-img {
-    width: 200px;
+    width: 700px;
 }
 
 .home_data {
@@ -660,6 +654,7 @@ img {
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .15);
 }
 
 .portfolio_title {
