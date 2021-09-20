@@ -1,3 +1,7 @@
+<!-- Muhammad Azharu Anwar -->
+<!-- 2021 -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +30,7 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
-                        <a href="#home" class="nav_link">
+                        <a href="#home" class="nav_link active_link">
                             <i class="uil uil-estate nav_icon"></i> Home
                         </a>
                     </li>
@@ -59,6 +63,10 @@
                 <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>
             <div class="nav_btns">
+                <!-- Ganti theme -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -108,8 +116,7 @@
                         <h1 class="home_title">Hi, I'Am Azharu</h1>
                         <h3 class="home_subtitle">Frond End Developer</h3>
                         <p class="home_description">High Level experience in web design and developer knowledge</p>
-                        <a href="#contact" class="button button--flex">
-                           Hire Me<i class="uil uil-message button_icon"></i>
+                        <a href="#contact" class="button button--flex">Hire Me<i class="uil uil-message button_icon"></i>
                         </a>
                     </div>
                 </div>
@@ -171,7 +178,7 @@
                 <div class="skill_container container grid">
                     <div>
                         <!-- SKILL 1 -->
-                        <div class="skills_content">
+                        <div class="skills_content skills_open">
                             <div class="skills_header">
                                 <i class="uil uil-brackets-curly skills_icon"></i>
 
@@ -239,7 +246,8 @@
                             </div>
                         </div>
                         <!-- SKILL 2 -->
-                        <div class="skills_content">
+
+                        <div class="skills_content skills_close">
                             <div class="skills_header">
                                 <i class="uil uil-server-network skills_icon"></i>
 
@@ -282,9 +290,10 @@
                         </div>
                     </div>
 
+
                     <div>
                         <!-- SKILL 3 -->
-                        <div class="skills_content">
+                        <div class="skills_content skills_close">
                             <div class="skills_header">
                                 <!-- <i class="uil uil-swatchbook skills_icon"></i> -->
                                 <i class="uil uil-pagelines skills_icon"></i>
@@ -348,49 +357,317 @@
 
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section">
+            <h2 class="section_title">
+                Journey
+            </h2>
+            <span class="section_subtitle">My Personal Journey</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex qualification_active" data-target='#education'>
+                        <i class="uil uil-briefcase-alt qualification_icon"></i> Work
+                    </div>
+
+                    <div class="qualification_button button--flex" data-target="#work">
+                        <i class="uil uil-award"></i>Certification
+                    </div>
+                </div>
+
+                <div class="qualification_section">
+                    <!--==================== WORK CONTENT 1====================-->
+                    <div class="qualification_content qualification_active" data-content id="education">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification_data">
+
+                            <div>
+                                <h3 class="qualification_title">UI UX Designer & Product Design</h3>
+                                <span class="qualification_subtitle">Polda Kalimantan Barat, West Kalimantan</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2017-2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION 2====================-->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Web Developer Intern</h3>
+                                <span class="qualification_subtitle">PT Mandiri Syariah, Jakarta </span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2020-2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3====================-->
+                        <div class="qualification_data">
+
+                            <div>
+                                <h3 class="qualification_title">Web Developer & Graphic Designer</h3>
+                                <span class="qualification_subtitle">Polres Metro Bekasi, West Java</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION 4====================-->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Front End Developer</h3>
+                                <span class="qualification_subtitle">Polres Brebes, Central Java</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2016-2017
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 5====================-->
+                        <div class="qualification_data">
+
+                            <div>
+                                <h3 class="qualification_title">Visual Effect & Graphic Designer</h3>
+                                <span class="qualification_subtitle">Polres Pekalongan Kota, Central Java</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2015-2016
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+
+                        </div>
 
 
-        </section>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
+                    </div>
+
+                    <!--==================== ACHIEVEMENT ====================-->
+                    <div class="qualification_content" data-content id="work">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification_data">
+
+                            <div>
+                                <h3 class="qualification_title">Certification Award</h3>
+                                <span class="qualification_subtitle">Polda Kalimantan Barat, West Kalimantan</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2017-2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION 2====================-->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Certificate of Completion</h3>
+                                <span class="qualification_subtitle">PT Mandiri Syariah, Jakarta </span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2020-2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3====================-->
+                        <div class="qualification_data">
+
+                            <div>
+                                <h3 class="qualification_title">Certification Award</h3>
+                                <span class="qualification_subtitle">Polres Metro Bekasi, West Java</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION 4====================-->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Certification Award</h3>
+                                <span class="qualification_subtitle">Polres Brebes, Central Java</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2016-2017
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 5====================-->
+                        <div class="qualification_data">
+
+                            <div>
+                                <h3 class="qualification_title">Certification Award</h3>
+                                <span class="qualification_subtitle">Polres Pekalongan Kota, Central Java</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-schedule"></i> 2015-2016
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
 
+            </div>
         </section>
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">
+                Portfolio
+            </h2>
+            <span class="section_subtitle">Most recent work</span>
 
+
+
+            <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTOFLIO 1 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Modern website</h3>
+                            <p class="portfolio_description">Bla bla bla</p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo<i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                        </div>
+
+                    </div>
+
+
+                    <!-- PORTOFLIO 1 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Modern website</h3>
+                            <p class="portfolio_description">Bla bla bla</p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                 </a>
+                        </div>
+
+                    </div>
+
+                    <!-- PORTOFLIO 1 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Modern website</h3>
+                            <p class="portfolio_description">Bla bla bla</p>
+                            <a href="#" class="button button--flex button--small portoflio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                 </a>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            </div>
 
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
+            <div class="project_bg">
+                <div class="project_container container grid">
+                    <div class="project_data">
+                        <h2 class="project_title">You have a new project</h2>
+                        <p class="project_description">Contact me</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Hire Me <i class="uil uil-message project_icon button_icon"></i>
+                        </a>
+                    </div>
 
-
-        </section>
-
-        <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
-
-
-        </section>
-
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-
+                    <img src="assets/img/project.png" alt="" class="project_img">
+                </div>
+            </div>
 
         </section>
     </main>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
 
-
-    </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
