@@ -72,8 +72,28 @@ tabs.forEach(tab => {
 
 })
 
-/*==================== SERVICES MODAL ====================*/
+/*==================== MODAL ====================*/
+const modalViews = document.querySelectorAll('.certification_modal'),
+    modalBtns = document.querySelectorAll('.certification_button'),
+    modalCloses = document.querySelectorAll('.certification_modal-close')
 
+let modal = function(modalClick) {
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () => {
+        modal(i)
+    })
+})
+
+modalCloses.forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        modalViews.forEach((modalView) => {
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper(".portfolio_container", {
