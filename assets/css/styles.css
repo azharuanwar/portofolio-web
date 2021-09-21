@@ -11,7 +11,7 @@
     --header-height: 3rem;
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250;
+    --hue-color: 241;
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -130,6 +130,11 @@ h4 {
     font-weight: var(--font-semi-bold);
 }
 
+h1 {
+    line-height: 1;
+    margin-top: 1.5rem;
+}
+
 ul {
     list-style: none;
 }
@@ -176,7 +181,7 @@ img {
 
 .grid {
     display: grid;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
 }
 
 .header {
@@ -525,24 +530,47 @@ img {
     background-color: var(--first-color);
 }
 
-.skills_laravel {
-    width: 90%;
-}
 
-.skills_php {
-    width: 30%;
-}
+/* PERSENTAGE BAR */
 
-.skills_photoshop {
+.skills_flutter {
     width: 80%;
 }
 
-.skills_figma {
+.skills_laravel {
+    width: 70%;
+}
+
+.skills_javascript {
+    width: 50%;
+}
+
+.skills_php {
+    width: 60%;
+}
+
+.skills_photoshop {
     width: 90%;
+}
+
+.skills_figma {
+    width: 80%;
+}
+
+.skills_xd {
+    width: 70%;
 }
 
 .skills_after_effect {
     width: 90%;
+}
+
+.skills_corel_draw {
+    width: 87%;
+}
+
+.skills_sql {
+    width: 40%;
 }
 
 .skills_close .skills_list {
